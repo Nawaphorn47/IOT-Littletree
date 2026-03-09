@@ -1,8 +1,7 @@
-# wokwi.toml
 [wokwi]
 version = 1
-firmware = "../.pio/build/esp32doit-devkit-v1/firmware.bin" # Adjust path as needed
-elf = "../.pio/build/esp32doit-devkit-v1/firmware.elf" # Adjust path as needed
+firmware = "../.pio/build/esp32dev/firmware.bin"
+elf = "../.pio/build/esp32dev/firmware.elf"
 gdbServerPort = 3333
 
 
